@@ -1,21 +1,26 @@
-# Flappy Bird Game 🐦
+# Flappy Bird Game
 
-A Flappy Bird game built with Next.js, React, and HTML5 Canvas.
+A Flappy Bird clone built with **Next.js 14**, **TypeScript**, and the **Canvas API**.
 
-## Features
-- Canvas-based game loop (60 FPS)
-- Procedural pipe generation with collision detection
-- Web Audio API sound effects (flap, score, game over)
-- Particle effects on flap
-- Infinite parallax-scrolling ground
-- Score tracking with localStorage persistence
-- Dark theme with gradient sky and stars
+## 🎮 Play
 
-## Play
-Visit the [live preview](https://3000-ijtatdniftat7ifeles0a.e2b.app) to play.
+Live: [Vercel URL]
 
-## Run locally
-```bash
-npm install
-npm run dev
-```
+## Controls
+
+- **Tap / Click / Space / Arrow Up** to flap
+- Avoid the pipes — score goes up as you pass each one
+- Tap again to restart after game over
+- Best score saves in your browser
+
+## Sound Effects
+
+All sounds are synthesized via the Web Audio API — no audio files needed.
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Canvas API
+- Web Audio API
